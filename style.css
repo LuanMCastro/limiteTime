@@ -1,0 +1,43 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 500px;
+margin: 0;
+background-color:rgb(56, 54, 43);
+}
+
+.timer{
+    text-align: center;
+}
+.display{
+    color: darkblue;
+    font-size: 3rem;
+    margin-bottom: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.start{
+    background-color: rgb(4, 49, 67);
+    color:aliceblue;
+}
+
+.pause{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.stop{
+    background-color: darkgreen;
+    color: azure;
+}
+.fake{
+    background-color: chocolate;
+    color: ghostwhite;
+
+}
+
